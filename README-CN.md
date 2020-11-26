@@ -15,7 +15,7 @@
 
 ### 快速开始
 ```
-composer require game-wiki/helper
+composer require media-wiki/helper
 ```
 
 ### 使用详解
