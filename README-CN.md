@@ -17,3 +17,8 @@
 ```
 composer require game-wiki/helper
 ```
+
+### 使用详解
+
+## RedisServerHelper
+   1. server值多项目需保持一致，如host:port集合，或name:host集合
