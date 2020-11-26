@@ -1,5 +1,5 @@
 {
-  "name": "game-wiki/helper",
+  "name": "midia-wiki/helper",
   "type": "library",
   "version": "v1.0.0",
   "keywords": [
@@ -17,7 +17,7 @@
     "classmap": [
     ],
     "psr-4": {
-      "GameWiki\\": "src/"
+      "MediaWiki\\": "src/"
     },
     "files": [
     ]

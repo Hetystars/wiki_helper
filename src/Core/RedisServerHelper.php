@@ -5,10 +5,10 @@
  * Date: 2020/11/26 11:54
  */
 
-namespace GameWiki\Core;
+namespace MediaWiki\Core;
 /**
  * Class RedisServerHelper
- * @package GameWiki\Core
+ * @package MediaWiki\Core
  */
 class RedisServerHelper {
 
