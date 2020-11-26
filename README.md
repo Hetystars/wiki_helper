@@ -16,5 +16,5 @@ English | [中文](./README-CN.md)
 
 ### Quick Start
 ```
-composer require game_wiki/helper
+composer require game-wiki/helper
 ```
