@@ -1,5 +1,5 @@
 {
-  "name": "game_wiki/helper",
+  "name": "game_wiki",
   "type": "library",
   "version": "v1.0.0",
   "keywords": [
@@ -17,7 +17,7 @@
     "classmap": [
     ],
     "psr-4": {
-      "wiki_helper\\": "src/"
+      "GameWiki\\": "src/"
     },
     "files": [
     ]
