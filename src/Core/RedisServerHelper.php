@@ -203,9 +203,9 @@ class RedisServerHelper {
 
     /**
      * @param string $key
-     * @return array
+     * @return string
      */
-    public function getServer(string $key): array
+    public function getServer(string $key): string
     {
         $candidates = array_keys($this->serverTagMap);
         if (count($this->servers) > 1) {
@@ -214,14 +214,14 @@ class RedisServerHelper {
                 $candidates = array_slice($candidates, 0, 1);
             }
         }
-        $server = [];
+        $serverName = [];
         while (($tag = array_shift($candidates)) !== null) {
-            $server = $this->serverTagMap[$tag] ?? [];
-            if (!empty($server)) {
+            $serverName = $this->serverTagMap[$tag] ?? '';
+            if (!empty($serverName)) {
                 break;
             }
         }
-        return $server;
+        return $serverName;
     }
 
     /**
