@@ -17,7 +17,7 @@
     "classmap": [
     ],
     "psr-4": {
-      "wiki_helper": "src/"
+      "wiki_helper\\": "src/"
     },
     "files": [
     ]
